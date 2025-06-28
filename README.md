@@ -1,6 +1,6 @@
 # retico-objectFeatures
 
-A reticoo module for extracting visual features from detected objects using CLIP and other vision models from Hugging Face transformers.
+A retico module for extracting visual features from detected objects using CLIP and other vision models from Hugging Face transformers.
 
 ## Overview
 
@@ -23,7 +23,7 @@ git clone https://github.com/retico-team/retico-vision.git
 **Important**: Make sure to add the path to the `retico-vision` library to your `PYTHONPATH` environment variable. This is required for the module to properly import the vision components.
 
 ## Usage
-For a basic example of how to use the `retico-objectFeatures` module, refer to the `example.py` file in the repository.
+For a basic example of how to use the `retico-objectFeatures` module, refer to the `example.py` file in the repository. Note that you will also need to install and add to the environment the `retico-yolov11` module to provide the object detection capabilities.
 
 ## Configuration
 
@@ -40,8 +40,7 @@ retico-objectFeatures/
 ├── retico_objectFeatures/
 │   ├── __init__.py
 │   ├── objects_feat_extr.py    # Main feature extraction module
-│   ├── version.py              # Version information
-│   └── test_module.py          # Test utilities
+│   └── version.py              # Version information
 ├── setup.py                    # Package setup
 ├── example.py                  # Example usage script
 ├── README.md                   # This file
