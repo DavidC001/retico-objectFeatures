@@ -9,11 +9,6 @@ It uses state-of-the-art vision models including CLIP, ResNet, ViT, and other tr
 
 ## Installation
 
-### Prerequisites
-
-1. **Python 3.7+** is required
-2. **PyTorch** should be installed according to your system requirements
-
 ### Step 1: Install the package
 
 ```bash
