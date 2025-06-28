@@ -22,10 +22,8 @@ pip install git+https://github.com/retico-team/retico-objectFeatures.git
 
 ### Step 2: Install retico-vision dependency
 Since this module depends on `retico-vision`, you need to install it and add it to your Python path:
-
 ```bash
-# Install retico-vision
-pip install git+https://github.com/retico-team/retico-vision.git
+git clone https://github.com/retico-team/retico-vision.git
 ```
 **Important**: Make sure to add the path to the `retico-vision` library to your `PYTHONPATH` environment variable. This is required for the module to properly import the vision components.
 
