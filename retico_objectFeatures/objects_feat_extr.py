@@ -1,13 +1,11 @@
 """
-CLIP Module
+Object Feature Extraction Module
 ==================
 
-This module provides extracts features from ExtractedObjectsIU using CLIP.
+This module provides functionality to extract features from ExtractedObjectsIU using various vision models.
 """
-import itertools
 import threading
 import time
-import torch
 from collections import deque
 
 from transformers import (
@@ -23,6 +21,7 @@ from retico_vision.vision import ExtractedObjectsIU, ObjectFeaturesIU
 from PIL import Image
 
 class ObjectFeaturesExtractor(retico_core.AbstractModule):
+    """Module for extracting visual features from images using HuggingFace vision models."""
     @staticmethod
     def name():
         return "HF Vision models Object Features extractor"
